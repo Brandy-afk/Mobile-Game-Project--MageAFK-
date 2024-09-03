@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca611ab5a574a544fb0800ce42d56002, type: 3}
+  m_Name: Crown
+  m_EditorClassIdentifier: 
+  iD: 81
+  itemName: Crown
+  description: Majestic headwear symbolizing authority and royalty.
+  image: {fileID: -1842135139, guid: 4189b7ccff4cfda4284a95e6492bda39, type: 3}
+  grade: 4
+  mainType: 0
+  types: 0900000007000000
+  dropInfo: {fileID: 11400000, guid: ffe4f565ae470bb44b117a05e1dd9d3d, type: 2}
+  wrapInfoText: 1
+  smitePercentage:
+  - 4
+  - 6
+  - 8
+  - 12
+  timeBetweenEffects: 5
+  prefab: {fileID: 6601835079965640877, guid: 8a466096fcc310b49aa2d4864138bb7d, type: 3}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f1c87c4728c4445bd3046a28dbf303, type: 3}
+  m_Name: Industry
+  m_EditorClassIdentifier: 
+  skillName: 7
+  desc: Increase work order size.
+  isPercentage: 0
+  applyOnUpgrade: 1
+  lockedIcon: {fileID: 720733075, guid: 4f354e6db029ad44d9a271df769c865e, type: 3}
+  unlockedIcon: {fileID: -1133054360, guid: 4f354e6db029ad44d9a271df769c865e, type: 3}
+  maxedIcon: {fileID: 1381616939, guid: 4f354e6db029ad44d9a271df769c865e, type: 3}
+  prerequisites:
+  - {fileID: 11400000, guid: ef62e981e4e20014ead153920134a710, type: 2}
+  upgradeValues:
+  - 1
+  - 2
+  - 3
+  startingCost: 4
+  increasedCostPerRank: 1
+  maxRank: 3
+  isUnlocked: 0
+  isUpgraded: 0
+  isMaxed: 0
+  currentRank: 0

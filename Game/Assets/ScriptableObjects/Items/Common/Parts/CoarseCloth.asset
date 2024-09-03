@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53fe06069a763014bb0aaf2bc2b3ef87, type: 3}
+  m_Name: CoarseCloth
+  m_EditorClassIdentifier: 
+  iD: 102
+  itemName: Coarse Clothe
+  description: A rough, salvaged fabric.
+  image: {fileID: 1932550494, guid: f04330929aa6ccb49a4943ae62d76471, type: 3}
+  grade: 1
+  mainType: 5
+  types: 
+  dropInfo: {fileID: 11400000, guid: 407eeece129eb0b4190120e93eb9cf26, type: 2}

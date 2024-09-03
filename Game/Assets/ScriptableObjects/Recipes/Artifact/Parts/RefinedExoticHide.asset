@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc27fc5b0ad0f604a8efd62ef79ccbf9, type: 3}
+  m_Name: RefinedExoticHide
+  m_EditorClassIdentifier: 
+  grade: 4
+  output: {fileID: 11400000, guid: 3b7952b9c06ad684e83dfce757ddd91f, type: 2}
+  unlockType: 1
+  ingredients:
+  - item: {fileID: 11400000, guid: 677ec53387d950d4fa23b5090017d3f8, type: 2}
+    level: -2
+    quantity: 2
+  - item: {fileID: 11400000, guid: 8900ab0273cfd964482ccee7a70028bf, type: 2}
+    level: -2
+    quantity: 2
+  amountToCraft: 1
+  custom: 0
+  craftingValues:
+    cost: 0
+    time: 0
+  isResearched: 0

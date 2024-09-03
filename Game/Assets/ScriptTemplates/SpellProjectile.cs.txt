@@ -1,0 +1,13 @@
+
+
+namespace MageAFK.Spells
+{
+
+  public class #SCRIPTNAME# : PlayerProjectileController
+  {
+
+  
+
+  }
+
+}

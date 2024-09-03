@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309f3da6ea0f62346b91ba2314e45990, type: 3}
+  m_Name: GoldBar
+  m_EditorClassIdentifier: 
+  grade: 4
+  output: {fileID: 11400000, guid: 3e90c144c84a81a46817dbfd08b87248, type: 2}
+  unlockType: 0
+  ingredients:
+  - item: {fileID: 11400000, guid: f90d231b7b8746445a6741dcb7f74615, type: 2}
+    level: -2
+    quantity: 2
+  - item: {fileID: 11400000, guid: 6458519be652a824484bce871af11639, type: 2}
+    level: -2
+    quantity: 2
+  amountToCraft: 1
+  custom: 0
+  craftingValues:
+    cost: 0
+    time: 0
+  isResearched: 0

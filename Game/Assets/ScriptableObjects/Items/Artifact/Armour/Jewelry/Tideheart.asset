@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae83c98e7fa911b45b8bb377ae20ad4d, type: 3}
+  m_Name: Tideheart
+  m_EditorClassIdentifier: 
+  iD: 122
+  itemName: Tideheart
+  description: Holds the power of tidal strength. While putting your ear up to it,
+    you can hear the waves.
+  image: {fileID: -991158757, guid: 08f578f53a888bb4dac2da1a6bf53257, type: 3}
+  grade: 4
+  mainType: 2
+  types: 0900000007000000
+  dropInfo: {fileID: 0}
+  traits:
+  - stat: 6
+    baseAmount: 40
+    isForEnemy: 0
+    isPercentage: 1
+    runtimeAmount: 0
+  - stat: 47
+    baseAmount: 10
+    isForEnemy: 0
+    isPercentage: 1
+    runtimeAmount: 0

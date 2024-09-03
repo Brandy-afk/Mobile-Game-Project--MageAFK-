@@ -1,0 +1,20 @@
+
+using MageAFK.Core;
+using MageAFK.Stats;
+using UnityEngine;
+
+namespace MageAFK.Spells
+{
+
+  [CreateAssetMenu(fileName = "#SCRIPTNAME#", menuName = "Spells/#SCRIPTNAME#")]
+  public class #SCRIPTNAME# : Spell
+  {
+
+    public override void Activate(Transform spawn, Transform target)
+    {
+     
+    }
+
+
+  }
+}

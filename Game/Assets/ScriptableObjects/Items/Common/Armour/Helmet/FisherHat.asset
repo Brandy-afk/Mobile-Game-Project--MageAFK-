@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae83c98e7fa911b45b8bb377ae20ad4d, type: 3}
+  m_Name: FisherHat
+  m_EditorClassIdentifier: 
+  iD: 88
+  itemName: Fisher Hat
+  description: A practical headgear for fishing and outdoor activities.
+  image: {fileID: 2111308129, guid: 4189b7ccff4cfda4284a95e6492bda39, type: 3}
+  grade: 1
+  mainType: 0
+  types: 0900000007000000
+  dropInfo: {fileID: 0}
+  traits:
+  - stat: 1
+    baseAmount: 4
+    isForEnemy: 0
+    isPercentage: 0
+    runtimeAmount: 0

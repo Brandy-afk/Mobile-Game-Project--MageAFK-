@@ -1,0 +1,528 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 157fa4a8814555e48b03d42c31459502, type: 3}
+  m_Name: DemonicShield
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: spellStats
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[MageAFK.Stats.Stat, Assembly-CSharp],[MageAFK.Spells.SpellStat,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[MageAFK.Stats.Stat,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 9
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 30
+    - Name: $v
+      Entry: 7
+      Data: 2|MageAFK.Spells.SpellStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 6
+    - Name: runtimeValue
+      Entry: 4
+      Data: 6
+    - Name: statType
+      Entry: 3
+      Data: 30
+    - Name: upgradable
+      Entry: 5
+      Data: true
+    - Name: hideStat
+      Entry: 5
+      Data: false
+    - Name: isPercentage
+      Entry: 5
+      Data: false
+    - Name: maxLevel
+      Entry: 3
+      Data: 40
+    - Name: rule
+      Entry: 6
+      Data: 
+    - Name: level
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 25
+    - Name: $v
+      Entry: 7
+      Data: 3|MageAFK.Spells.SpellStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 15
+    - Name: runtimeValue
+      Entry: 4
+      Data: 15
+    - Name: statType
+      Entry: 3
+      Data: 25
+    - Name: upgradable
+      Entry: 5
+      Data: true
+    - Name: hideStat
+      Entry: 5
+      Data: false
+    - Name: isPercentage
+      Entry: 5
+      Data: false
+    - Name: maxLevel
+      Entry: 3
+      Data: 40
+    - Name: rule
+      Entry: 6
+      Data: 
+    - Name: level
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: 4|MageAFK.Spells.SpellStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 20
+    - Name: runtimeValue
+      Entry: 4
+      Data: 20
+    - Name: statType
+      Entry: 3
+      Data: 11
+    - Name: upgradable
+      Entry: 5
+      Data: true
+    - Name: hideStat
+      Entry: 5
+      Data: false
+    - Name: isPercentage
+      Entry: 5
+      Data: false
+    - Name: maxLevel
+      Entry: 3
+      Data: -1
+    - Name: rule
+      Entry: 6
+      Data: 
+    - Name: level
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 26
+    - Name: $v
+      Entry: 7
+      Data: 5|MageAFK.Spells.SpellStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 10
+    - Name: runtimeValue
+      Entry: 4
+      Data: 10
+    - Name: statType
+      Entry: 3
+      Data: 26
+    - Name: upgradable
+      Entry: 5
+      Data: true
+    - Name: hideStat
+      Entry: 5
+      Data: false
+    - Name: isPercentage
+      Entry: 5
+      Data: true
+    - Name: maxLevel
+      Entry: 3
+      Data: 40
+    - Name: rule
+      Entry: 6
+      Data: 
+    - Name: level
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 27
+    - Name: $v
+      Entry: 7
+      Data: 6|MageAFK.Spells.SpellStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 150
+    - Name: runtimeValue
+      Entry: 4
+      Data: 150
+    - Name: statType
+      Entry: 3
+      Data: 27
+    - Name: upgradable
+      Entry: 5
+      Data: true
+    - Name: hideStat
+      Entry: 5
+      Data: false
+    - Name: isPercentage
+      Entry: 5
+      Data: true
+    - Name: maxLevel
+      Entry: 3
+      Data: 40
+    - Name: rule
+      Entry: 6
+      Data: 
+    - Name: level
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 7|MageAFK.Spells.SpellStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 5
+    - Name: runtimeValue
+      Entry: 4
+      Data: 5
+    - Name: statType
+      Entry: 3
+      Data: 10
+    - Name: upgradable
+      Entry: 5
+      Data: true
+    - Name: hideStat
+      Entry: 5
+      Data: false
+    - Name: isPercentage
+      Entry: 5
+      Data: false
+    - Name: maxLevel
+      Entry: 3
+      Data: 40
+    - Name: rule
+      Entry: 6
+      Data: 
+    - Name: level
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 32
+    - Name: $v
+      Entry: 7
+      Data: 8|MageAFK.Spells.SpellStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 30
+    - Name: runtimeValue
+      Entry: 4
+      Data: 30
+    - Name: statType
+      Entry: 3
+      Data: 32
+    - Name: upgradable
+      Entry: 5
+      Data: true
+    - Name: hideStat
+      Entry: 5
+      Data: false
+    - Name: isPercentage
+      Entry: 5
+      Data: true
+    - Name: maxLevel
+      Entry: 3
+      Data: 40
+    - Name: rule
+      Entry: 6
+      Data: 
+    - Name: level
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 33
+    - Name: $v
+      Entry: 7
+      Data: 9|MageAFK.Spells.SpellStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 4
+    - Name: runtimeValue
+      Entry: 4
+      Data: 4
+    - Name: statType
+      Entry: 3
+      Data: 33
+    - Name: upgradable
+      Entry: 5
+      Data: true
+    - Name: hideStat
+      Entry: 5
+      Data: false
+    - Name: isPercentage
+      Entry: 5
+      Data: false
+    - Name: maxLevel
+      Entry: 3
+      Data: 40
+    - Name: rule
+      Entry: 6
+      Data: 
+    - Name: level
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 34
+    - Name: $v
+      Entry: 7
+      Data: 10|MageAFK.Spells.SpellStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 10
+    - Name: runtimeValue
+      Entry: 4
+      Data: 10
+    - Name: statType
+      Entry: 3
+      Data: 34
+    - Name: upgradable
+      Entry: 5
+      Data: true
+    - Name: hideStat
+      Entry: 5
+      Data: false
+    - Name: isPercentage
+      Entry: 5
+      Data: false
+    - Name: maxLevel
+      Entry: 3
+      Data: 40
+    - Name: rule
+      Entry: 6
+      Data: 
+    - Name: level
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: recordDict
+      Entry: 7
+      Data: 11|System.Collections.Generic.Dictionary`2[[MageAFK.Spells.SpellRecordID,
+        Assembly-CSharp],[System.Single, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 12|System.Collections.Generic.EnumEqualityComparer`1[[MageAFK.Spells.SpellRecordID,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  iD: 32
+  spellName: Demonic Shield
+  desc: Conjures a demonic shield close to the player that not only blocks incoming
+    enemy projectiles but also retaliates by launching a fireball back at the attacker
+    upon impact.
+  type: 1
+  effect: 2
+  element: 1
+  book: 2
+  damageType: 5
+  shaderColors:
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    tintColor: {r: 1, g: 1, b: 1, a: 1}
+  topColor: {r: 1, g: 1, b: 1, a: 1}
+  bottomColor: {r: 1, g: 1, b: 1, a: 1}
+  controller: {fileID: 9100000, guid: 62fcf7151d45a57468f67580710f3680, type: 2}
+  image: {fileID: -52447498, guid: f656609c30e3b5e439edabf3cb181773, type: 3}
+  prefab: {fileID: 6599862446878764888, guid: e13c347d852190e4d87b89928632c3d6, type: 3}
+  silverCost: 5000
+  spellsToPool:
+  - iD: 51
+    prefab: {fileID: 6599862446878764888, guid: 4956d3799c8f1c847ab1803fb06c7aa8, type: 3}
+  forcedFocus: 5
+  statToAdd: 0
+  sortedStats: 220000000a0000001a0000001b0000000b000000190000001e0000002000000021000000
+  radius: 2
+  angularSpeed: 120

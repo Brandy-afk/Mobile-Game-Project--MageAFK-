@@ -1,0 +1,1096 @@
+fileFormatVersion: 2
+guid: 27fa79d04a553164796eccbdd32cff52
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Explosion VFX 5_Frame_0
+    originalName: 
+    pivot: {x: 0.44827583, y: -0.37037036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 118
+      width: 29
+      height: 27
+    spriteID: 97f04d1a304bf6544ad0dd559469c1cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 118}
+  - name: Explosion VFX 5_Frame_1
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.31034485}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 43
+      width: 31
+      height: 29
+    spriteID: 1f185ff4ee957804596968e878658179
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 43}
+  - name: Explosion VFX 5_Frame_2
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.2580645}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 32
+      height: 31
+    spriteID: ee3226d2a3eeb6e41b64361ff8a972e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Explosion VFX 5_Frame_3
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.22580643}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 4
+      width: 32
+      height: 31
+    spriteID: dcecb52c643ec6d439c32e035fe012ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 4}
+  - name: Explosion VFX 5_Frame_4
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.2758621}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 203
+      y: 43
+      width: 31
+      height: 29
+    spriteID: e4a5659594ed06d47b33828cdd8b91ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 203, y: 43}
+  - name: Explosion VFX 5_Frame_5
+    originalName: 
+    pivot: {x: 0.48275867, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 41
+      y: 118
+      width: 29
+      height: 27
+    spriteID: 5b4397937c493d74cb3a9188c1b4eda9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 41, y: 118}
+  - name: Explosion VFX 5_Frame_6
+    originalName: 
+    pivot: {x: 0.48148146, y: -0.39999998}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 153
+      width: 27
+      height: 25
+    spriteID: 418cb4b48d739384a82e17c8b9d091ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 153}
+  - name: Explosion VFX 5_Frame_7
+    originalName: 
+    pivot: {x: 0.48, y: -0.39999998}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 118
+      width: 25
+      height: 25
+    spriteID: 4e7ecd513612f2a4684afc497f4fcad8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 118}
+  - name: Explosion VFX 5_Frame_11
+    originalName: 
+    pivot: {x: 0.44827583, y: -0.37037036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 118
+      width: 29
+      height: 27
+    spriteID: 7bcb85f41e3bd094f838ea31a07244d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 118}
+  - name: Explosion VFX 5_Frame_12
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.31034485}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 81
+      width: 31
+      height: 29
+    spriteID: 18fdf957777066848ae031aaf1f1f020
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 81}
+  - name: Explosion VFX 5_Frame_13
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.2580645}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 4
+      width: 32
+      height: 31
+    spriteID: d2a75d8b23647d14dac22abc1442891a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 4}
+  - name: Explosion VFX 5_Frame_14
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.22580643}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 4
+      width: 32
+      height: 31
+    spriteID: 6b9be2410701e1242b0fc9566967bd29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 4}
+  - name: Explosion VFX 5_Frame_15
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.26666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 43
+      width: 32
+      height: 30
+    spriteID: 71e7f178685eea941bf07721d16c97fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 43}
+  - name: Explosion VFX 5_Frame_16
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.26666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 43
+      width: 32
+      height: 30
+    spriteID: 081c33bad77da50459cec614135b83f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 43}
+  - name: Explosion VFX 5_Frame_17
+    originalName: 
+    pivot: {x: 0.51612896, y: -0.31034485}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 81
+      width: 31
+      height: 29
+    spriteID: 9f2fd32e437fbfa4c9512d8562bc351f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 81}
+  - name: Explosion VFX 5_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.37037036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 81
+      width: 30
+      height: 27
+    spriteID: 91f98c1e2a84ea24b9c838cdda33c9e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 81}
+  - name: Explosion VFX 5_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.68421054}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 153
+      width: 22
+      height: 19
+    spriteID: 45adb7816d5e5f44f95e97d964b06e46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 153}
+  - name: Explosion VFX 5_Frame_26
+    originalName: 
+    pivot: {x: 0.44827583, y: -0.37037036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 118
+      width: 29
+      height: 27
+    spriteID: 90f9d735586f00c468d119e838eea097
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 118}
+  - name: Explosion VFX 5_Frame_27
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.31034485}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 81
+      width: 31
+      height: 29
+    spriteID: ef283f86590efaa4db2c17dcf8096f42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 81}
+  - name: Explosion VFX 5_Frame_28
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.2580645}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 4
+      width: 32
+      height: 31
+    spriteID: aced389dd82bead49aa322feec3e406e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 4}
+  - name: Explosion VFX 5_Frame_29
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.22580643}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 4
+      width: 32
+      height: 31
+    spriteID: dd12bd235d0c4224db6fdecd88165de1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 4}
+  - name: Explosion VFX 5_Frame_30
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.26666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 43
+      width: 32
+      height: 30
+    spriteID: f544c24e002d5ff4787f8d2abdec6a0a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 43}
+  - name: Explosion VFX 5_Frame_31
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.26666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 43
+      width: 32
+      height: 30
+    spriteID: c7487b33808812840b4c94ecc9f637ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 43}
+  - name: Explosion VFX 5_Frame_32
+    originalName: 
+    pivot: {x: 0.51612896, y: -0.31034485}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 81
+      width: 31
+      height: 29
+    spriteID: 1c798818fdb75c34eaaacf522cfda3fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 121, y: 81}
+  - name: Explosion VFX 5_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -0.37037036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 198
+      y: 81
+      width: 30
+      height: 27
+    spriteID: 8c6746a6080adbd42b10c20cf9a30cc7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 198, y: 81}
+  - name: Explosion VFX 5_Frame_19
+    originalName: 
+    pivot: {x: 0.48275867, y: -0.44}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 118
+      width: 29
+      height: 25
+    spriteID: 41170cf5f86ca6f4f9f4b208d2947158
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 118}
+  - name: Explosion VFX 5_Frame_20
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.44}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 153
+      width: 28
+      height: 25
+    spriteID: e0713812cb2a6834183ff941cba4e55f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 153}
+  - name: Explosion VFX 5_Frame_21
+    originalName: 
+    pivot: {x: 0.48148146, y: -0.5217391}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 153
+      width: 27
+      height: 23
+    spriteID: ac0e7adfdf3de154f8150483d59ddbc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 153}
+  - name: Explosion VFX 5_Frame_22
+    originalName: 
+    pivot: {x: 0.1875, y: -0.5217391}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 81
+      width: 16
+      height: 23
+    spriteID: 7fd6da6dccf972e44bea9084a2482c3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 81}
+  - name: Explosion VFX 5_Frame_34
+    originalName: 
+    pivot: {x: 0.48275867, y: -0.44}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 118
+      width: 29
+      height: 25
+    spriteID: cf049dd6f54e7c149b17f1a241ad33ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 118}
+  - name: Explosion VFX 5_Frame_35
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.44}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 153
+      width: 28
+      height: 25
+    spriteID: 03cc7d1447d3efa41affc3361002251e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 153}
+  - name: Explosion VFX 5_Frame_36
+    originalName: 
+    pivot: {x: 0.48148146, y: -0.5217391}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 146
+      y: 153
+      width: 27
+      height: 23
+    spriteID: ec4c197bad20b884a8783dc42d2e00ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 146, y: 153}
+  - name: Explosion VFX 5_Frame_37
+    originalName: 
+    pivot: {x: 0.1875, y: -0.5217391}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 211
+      y: 153
+      width: 16
+      height: 23
+    spriteID: 4f90841055304434b82fe505381bd811
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 211, y: 153}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1242146702
+    name: Explosion VFX 5
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Explosion VFX 5_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 10
+        width: 29
+        height: 27
+      spriteId: 97f04d1a304bf6544ad0dd559469c1cd
+    - name: Explosion VFX 5_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 9
+        width: 31
+        height: 29
+      spriteId: 1f185ff4ee957804596968e878658179
+    - name: Explosion VFX 5_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 32
+        height: 31
+      spriteId: ee3226d2a3eeb6e41b64361ff8a972e7
+    - name: Explosion VFX 5_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 7
+        width: 32
+        height: 31
+      spriteId: dcecb52c643ec6d439c32e035fe012ae
+    - name: Explosion VFX 5_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 8
+        width: 31
+        height: 29
+      spriteId: e4a5659594ed06d47b33828cdd8b91ba
+    - name: Explosion VFX 5_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 9
+        width: 29
+        height: 27
+      spriteId: 5b4397937c493d74cb3a9188c1b4eda9
+    - name: Explosion VFX 5_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 10
+        width: 27
+        height: 25
+      spriteId: 418cb4b48d739384a82e17c8b9d091ae
+    - name: Explosion VFX 5_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 12
+        y: 10
+        width: 25
+        height: 25
+      spriteId: 4e7ecd513612f2a4684afc497f4fcad8
+    - name: Explosion VFX 5_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 10
+        width: 29
+        height: 27
+      spriteId: 7bcb85f41e3bd094f838ea31a07244d8
+    - name: Explosion VFX 5_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 9
+        width: 31
+        height: 29
+      spriteId: 18fdf957777066848ae031aaf1f1f020
+    - name: Explosion VFX 5_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 32
+        height: 31
+      spriteId: d2a75d8b23647d14dac22abc1442891a
+    - name: Explosion VFX 5_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 7
+        width: 32
+        height: 31
+      spriteId: 6b9be2410701e1242b0fc9566967bd29
+    - name: Explosion VFX 5_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 32
+        height: 30
+      spriteId: 71e7f178685eea941bf07721d16c97fe
+    - name: Explosion VFX 5_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 32
+        height: 30
+      spriteId: 081c33bad77da50459cec614135b83f7
+    - name: Explosion VFX 5_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 9
+        width: 31
+        height: 29
+      spriteId: 9f2fd32e437fbfa4c9512d8562bc351f
+    - name: Explosion VFX 5_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 10
+        width: 30
+        height: 27
+      spriteId: 91f98c1e2a84ea24b9c838cdda33c9e6
+    - name: Explosion VFX 5_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 13
+        y: 13
+        width: 22
+        height: 19
+      spriteId: 45adb7816d5e5f44f95e97d964b06e46
+    - name: Explosion VFX 5_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 10
+        width: 29
+        height: 27
+      spriteId: 90f9d735586f00c468d119e838eea097
+    - name: Explosion VFX 5_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 9
+        width: 31
+        height: 29
+      spriteId: ef283f86590efaa4db2c17dcf8096f42
+    - name: Explosion VFX 5_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 32
+        height: 31
+      spriteId: aced389dd82bead49aa322feec3e406e
+    - name: Explosion VFX 5_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 7
+        width: 32
+        height: 31
+      spriteId: dd12bd235d0c4224db6fdecd88165de1
+    - name: Explosion VFX 5_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 32
+        height: 30
+      spriteId: f544c24e002d5ff4787f8d2abdec6a0a
+    - name: Explosion VFX 5_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 8
+        width: 32
+        height: 30
+      spriteId: c7487b33808812840b4c94ecc9f637ec
+    - name: Explosion VFX 5_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 9
+        width: 31
+        height: 29
+      spriteId: 1c798818fdb75c34eaaacf522cfda3fd
+    - name: Explosion VFX 5_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 10
+        width: 30
+        height: 27
+      spriteId: 8c6746a6080adbd42b10c20cf9a30cc7
+    - name: Explosion VFX 5_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 11
+        width: 29
+        height: 25
+      spriteId: 41170cf5f86ca6f4f9f4b208d2947158
+    - name: Explosion VFX 5_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 11
+        width: 28
+        height: 25
+      spriteId: e0713812cb2a6834183ff941cba4e55f
+    - name: Explosion VFX 5_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 12
+        width: 27
+        height: 23
+      spriteId: ac0e7adfdf3de154f8150483d59ddbc2
+    - name: Explosion VFX 5_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 12
+        width: 16
+        height: 23
+      spriteId: 7fd6da6dccf972e44bea9084a2482c3b
+    - name: Explosion VFX 5_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 11
+        width: 29
+        height: 25
+      spriteId: cf049dd6f54e7c149b17f1a241ad33ff
+    - name: Explosion VFX 5_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 11
+        width: 28
+        height: 25
+      spriteId: 03cc7d1447d3efa41affc3361002251e
+    - name: Explosion VFX 5_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 12
+        width: 27
+        height: 23
+      spriteId: ec4c197bad20b884a8783dc42d2e00ab
+    - name: Explosion VFX 5_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 12
+        width: 16
+        height: 23
+      spriteId: 4f90841055304434b82fe505381bd811
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 48, y: 48}

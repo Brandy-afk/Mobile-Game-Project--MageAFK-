@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6b603c26caf2e5489c6a064a1906dc9, type: 3}
+  m_Name: Insurmountable
+  m_EditorClassIdentifier: 
+  skillName: 20
+  desc: Chance for spells to deal double damage.
+  isPercentage: 1
+  applyOnUpgrade: 1
+  lockedIcon: {fileID: 1465368181, guid: 64b4982555848db43bea93a3afda0564, type: 3}
+  unlockedIcon: {fileID: -107262792, guid: 64b4982555848db43bea93a3afda0564, type: 3}
+  maxedIcon: {fileID: 287651453, guid: 64b4982555848db43bea93a3afda0564, type: 3}
+  prerequisites:
+  - {fileID: 11400000, guid: f6d8c313e0686b445936cea54f4a7f1e, type: 2}
+  upgradeValues:
+  - 0.01
+  - 0.02
+  - 0.03
+  - 0.04
+  - 0.05
+  startingCost: 3
+  increasedCostPerRank: 1
+  maxRank: 5
+  isUnlocked: 0
+  isUpgraded: 0
+  isMaxed: 0
+  currentRank: 0
+  priority: 3

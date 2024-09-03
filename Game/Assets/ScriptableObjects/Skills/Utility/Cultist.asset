@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3dd1a5953b8a54ea94a5550496a851, type: 3}
+  m_Name: Cultist
+  m_EditorClassIdentifier: 
+  skillName: 23
+  desc: Decreased cost to upgrade items.
+  isPercentage: 1
+  applyOnUpgrade: 1
+  lockedIcon: {fileID: 1780734786, guid: 4f354e6db029ad44d9a271df769c865e, type: 3}
+  unlockedIcon: {fileID: -406523358, guid: 4f354e6db029ad44d9a271df769c865e, type: 3}
+  maxedIcon: {fileID: -1908649079, guid: 4f354e6db029ad44d9a271df769c865e, type: 3}
+  prerequisites:
+  - {fileID: 11400000, guid: 67221effe153c7d4a9bbb0d440374000, type: 2}
+  upgradeValues:
+  - 0.5
+  - 0.1
+  - 0.15
+  startingCost: 1
+  increasedCostPerRank: 1
+  maxRank: 3
+  isUnlocked: 0
+  isUpgraded: 0
+  isMaxed: 0
+  currentRank: 0
+  statToAlter: 68
+  negative: 1

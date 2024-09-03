@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae83c98e7fa911b45b8bb377ae20ad4d, type: 3}
+  m_Name: Ring
+  m_EditorClassIdentifier: 
+  iD: 97
+  itemName: Ring
+  description: A classic piece of jewelry worn for various occasions.
+  image: {fileID: 1886768869, guid: 08f578f53a888bb4dac2da1a6bf53257, type: 3}
+  grade: 1
+  mainType: 2
+  types: 0900000007000000
+  dropInfo: {fileID: 11400000, guid: 7a752c56bd3f25e468c8f3bb0ce7340e, type: 2}
+  traits:
+  - stat: 19
+    baseAmount: 5
+    isForEnemy: 0
+    isPercentage: 1
+    runtimeAmount: 0

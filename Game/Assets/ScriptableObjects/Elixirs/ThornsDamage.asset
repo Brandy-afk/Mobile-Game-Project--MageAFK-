@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1c0ae5160cc75644908cbd5dc2d42c0, type: 3}
+  m_Name: ThornsDamage
+  m_EditorClassIdentifier: 
+  identification: 8
+  sprite: {fileID: -756766871, guid: 4dcfa1aad3677aa40994de151666cf7b, type: 3}
+  title: THD+
+  titleColor: {r: 0.4245283, g: 0.37172088, b: 0.062077247, a: 1}
+  baseCost: 3
+  stat: 46
+  isPercentage: 0
+  values:
+    min: 5
+    max: 50

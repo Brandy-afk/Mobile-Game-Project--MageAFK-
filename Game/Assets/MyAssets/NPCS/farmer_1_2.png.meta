@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 9caf9135ea34a4c41824f7e26f1f06b2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: farmer_1_2_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd98b6b19dbe7844af9efecb4282903
+      internalID: 1133518900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_1_2_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ea238a615432f4b8682d622a97c408
+      internalID: -1293119658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_1_2_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de2ee244a24bc14cb244d2e8d995ec1
+      internalID: 1613869428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_1_2_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deceed14643417e46ac0f2bef5de668d
+      internalID: -88150594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_1_2_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b055ae41ca0b3149829469ca75e3960
+      internalID: -317346785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_1_2_47
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b7b73972af4dd40aa8855185185f2b
+      internalID: -2126936574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      farmer_1_2_0: 270101587
+      farmer_1_2_1: -1238118825
+      farmer_1_2_10: -900580379
+      farmer_1_2_11: -1122646095
+      farmer_1_2_12: -81858068
+      farmer_1_2_13: 88019763
+      farmer_1_2_14: -414885478
+      farmer_1_2_15: -2097997111
+      farmer_1_2_16: -512441316
+      farmer_1_2_17: 1308509520
+      farmer_1_2_18: -2044533764
+      farmer_1_2_19: 345106267
+      farmer_1_2_2: 2093471118
+      farmer_1_2_20: 774280485
+      farmer_1_2_21: 1025912168
+      farmer_1_2_22: -1123364088
+      farmer_1_2_23: -207609051
+      farmer_1_2_24: -7005309
+      farmer_1_2_25: -2085233414
+      farmer_1_2_26: 482418353
+      farmer_1_2_27: -1109365804
+      farmer_1_2_28: -1757931569
+      farmer_1_2_29: 1111002509
+      farmer_1_2_3: 289003256
+      farmer_1_2_30: -513408371
+      farmer_1_2_31: -1698093894
+      farmer_1_2_32: 402117848
+      farmer_1_2_33: -2019968495
+      farmer_1_2_34: 526283952
+      farmer_1_2_35: -631065978
+      farmer_1_2_36: -35421474
+      farmer_1_2_37: 1712311453
+      farmer_1_2_38: 355962633
+      farmer_1_2_39: -1385957938
+      farmer_1_2_4: 220644385
+      farmer_1_2_40: 1814422251
+      farmer_1_2_41: 984885537
+      farmer_1_2_42: 1133518900
+      farmer_1_2_43: -1293119658
+      farmer_1_2_44: 1613869428
+      farmer_1_2_45: -88150594
+      farmer_1_2_46: -317346785
+      farmer_1_2_47: -2126936574
+      farmer_1_2_48: -1650283595
+      farmer_1_2_49: -1940637860
+      farmer_1_2_5: -306660905
+      farmer_1_2_50: -1157001962
+      farmer_1_2_51: 246469171
+      farmer_1_2_52: -1229919899
+      farmer_1_2_53: -1891294266
+      farmer_1_2_54: -30819767
+      farmer_1_2_55: -1246138313
+      farmer_1_2_56: 2030198182
+      farmer_1_2_57: -507001088
+      farmer_1_2_58: -1928510997
+      farmer_1_2_59: -808885564
+      farmer_1_2_6: 2093879233
+      farmer_1_2_60: -1732040085
+      farmer_1_2_61: 1008641218
+      farmer_1_2_62: 348975647
+      farmer_1_2_63: 991864156
+      farmer_1_2_64: 1994762278
+      farmer_1_2_65: -174096290
+      farmer_1_2_66: -1033764439
+      farmer_1_2_67: 236363773
+      farmer_1_2_68: -705982331
+      farmer_1_2_69: 1391292664
+      farmer_1_2_7: -52436572
+      farmer_1_2_70: 1338582460
+      farmer_1_2_71: 2007391586
+      farmer_1_2_72: -1176247047
+      farmer_1_2_73: 685106482
+      farmer_1_2_74: -609233134
+      farmer_1_2_75: -1856218038
+      farmer_1_2_76: -852499790
+      farmer_1_2_77: -426840096
+      farmer_1_2_78: -458565941
+      farmer_1_2_79: 1609215079
+      farmer_1_2_8: 1440966307
+      farmer_1_2_80: -303023642
+      farmer_1_2_81: 1890142577
+      farmer_1_2_82: 1966177259
+      farmer_1_2_83: 1315538180
+      farmer_1_2_84: 150722330
+      farmer_1_2_9: 830029109
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

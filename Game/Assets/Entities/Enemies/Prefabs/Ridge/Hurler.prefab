@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3970105543108913761
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -6196893144503934350, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: a0f15a5a4aff1684684eca3890ebf527, type: 2}
+    - target: {fileID: -6196893144503934350, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: effectsLoc.y
+      value: 124.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -6196893144503934350, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: healthBarLoc.y
+      value: -160.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -6196893144503934350, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: projectileSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 350688732624747187, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 350688732624747187, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 350688732624747187, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 350688732624747187, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 350688732624747187, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 350688732624747187, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 350688732624747187, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 350688732624747187, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 350688732624747187, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 350688732624747187, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886979686275574368, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 550882250, guid: 8cf8096745aa05d4eb7d0cb9d3593772, type: 3}
+    - target: {fileID: 3186548078395569842, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_Name
+      value: Hurler
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268997176867642442, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268997176867642442, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 5077378377537121230, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.745
+      objectReference: {fileID: 0}
+    - target: {fileID: 5223842612942213723, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.024
+      objectReference: {fileID: 0}
+    - target: {fileID: 5223842612942213723, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328422970934327751, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_Size.x
+      value: 1.5757761
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328422970934327751, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_Size.y
+      value: 2.5882616
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328422970934327751, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.12127161
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328422970934327751, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.40384245
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762114560379632347, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_Size.x
+      value: 0.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762114560379632347, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_Size.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897034593898284070, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_Size.x
+      value: 1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7822999387841566449, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2d8929f59d9e6d648a1c6048826099ea, type: 2}
+    - target: {fileID: 7843683950493976060, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.584
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a46719717bdbc6a45ad6a62e1285f11e, type: 3}

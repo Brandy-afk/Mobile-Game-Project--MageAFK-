@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1887b8e698760124a8c764f213901331, type: 3}
+  m_Name: BloodPendant
+  m_EditorClassIdentifier: 
+  iD: 121
+  itemName: Blood Pendant
+  description: A darkly gleaming amulet that pulses with a life of its own.
+  image: {fileID: 1291010652, guid: 8a3168311c322f148933fde5cd5c2724, type: 3}
+  grade: 4
+  mainType: 2
+  types: 0900000007000000
+  dropInfo: {fileID: 11400000, guid: aafb10e2d08165b4191b9694d0f5f48b, type: 2}
+  wrapInfoText: 1
+  maxSpawns: 02000000040000000600000008000000
+  damage:
+  - 25
+  - 30
+  - 35
+  - 40
+  prefab: {fileID: 5979001592727113763, guid: 8dc98d83357eb6d419f91a4a5a26f6a5, type: 3}

@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb68386caf9be2b40a762669b2bbb268, type: 3}
+  m_Name: Retribution
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: spellStats
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[MageAFK.Stats.Stat, Assembly-CSharp],[MageAFK.Spells.SpellStat,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[MageAFK.Stats.Stat,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 2|MageAFK.Spells.SpellStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 14
+    - Name: runtimeValue
+      Entry: 4
+      Data: 14
+    - Name: statType
+      Entry: 3
+      Data: 10
+    - Name: upgradable
+      Entry: 5
+      Data: true
+    - Name: hideStat
+      Entry: 5
+      Data: false
+    - Name: isPercentage
+      Entry: 5
+      Data: false
+    - Name: maxLevel
+      Entry: 3
+      Data: 40
+    - Name: rule
+      Entry: 6
+      Data: 
+    - Name: level
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 25
+    - Name: $v
+      Entry: 7
+      Data: 3|MageAFK.Spells.SpellStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 7
+    - Name: runtimeValue
+      Entry: 4
+      Data: 7
+    - Name: statType
+      Entry: 3
+      Data: 25
+    - Name: upgradable
+      Entry: 5
+      Data: true
+    - Name: hideStat
+      Entry: 5
+      Data: false
+    - Name: isPercentage
+      Entry: 5
+      Data: false
+    - Name: maxLevel
+      Entry: 3
+      Data: 40
+    - Name: rule
+      Entry: 6
+      Data: 
+    - Name: level
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 54
+    - Name: $v
+      Entry: 7
+      Data: 4|MageAFK.Spells.SpellStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 20
+    - Name: runtimeValue
+      Entry: 4
+      Data: 20
+    - Name: statType
+      Entry: 3
+      Data: 54
+    - Name: upgradable
+      Entry: 5
+      Data: true
+    - Name: hideStat
+      Entry: 5
+      Data: false
+    - Name: isPercentage
+      Entry: 5
+      Data: true
+    - Name: maxLevel
+      Entry: 3
+      Data: 40
+    - Name: rule
+      Entry: 6
+      Data: 
+    - Name: level
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: recordDict
+      Entry: 7
+      Data: 5|System.Collections.Generic.Dictionary`2[[MageAFK.Spells.SpellRecordID,
+        Assembly-CSharp],[System.Single, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 6|System.Collections.Generic.EnumEqualityComparer`1[[MageAFK.Spells.SpellRecordID,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  iD: 15
+  spellName: Retribution
+  desc: 'For a certain period of time when you are attacked there will be a chance
+    for you to fire one of your equipped spells back at the attacker. '
+  type: 1
+  effect: 0
+  element: 0
+  book: 1
+  damageType: 3
+  shaderColors:
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    tintColor: {r: 1, g: 1, b: 1, a: 1}
+  topColor: {r: 1, g: 1, b: 1, a: 1}
+  bottomColor: {r: 1, g: 1, b: 1, a: 1}
+  controller: {fileID: 9100000, guid: da82e383baf472b4c91238c040909a26, type: 2}
+  image: {fileID: 503417400, guid: 2d4f17eca4368da459cecaf5aa0e8b95, type: 3}
+  prefab: {fileID: 7455602726631700862, guid: 531fd5b832095b9409659940a6766ba5, type: 3}
+  silverCost: 5000
+  spellsToPool: []
+  forcedFocus: 5
+  statToAdd: 0
+  sortedStats: 0a0000003600000019000000
+  priority: 0

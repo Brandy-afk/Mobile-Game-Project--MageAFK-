@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3dd1a5953b8a54ea94a5550496a851, type: 3}
+  m_Name: Surging
+  m_EditorClassIdentifier: 
+  skillName: 18
+  desc: 'Decreased cooldown for ultimate abilities. '
+  isPercentage: 1
+  applyOnUpgrade: 1
+  lockedIcon: {fileID: 770908211, guid: 64b4982555848db43bea93a3afda0564, type: 3}
+  unlockedIcon: {fileID: 2039145533, guid: 64b4982555848db43bea93a3afda0564, type: 3}
+  maxedIcon: {fileID: 1400412728, guid: 64b4982555848db43bea93a3afda0564, type: 3}
+  prerequisites:
+  - {fileID: 11400000, guid: 2fb16b318fa49a142a654ecd99225bac, type: 2}
+  upgradeValues:
+  - 0.05
+  - 0.1
+  - 0.2
+  - 0.25
+  startingCost: 2
+  increasedCostPerRank: 2
+  maxRank: 4
+  isUnlocked: 0
+  isUpgraded: 0
+  isMaxed: 0
+  currentRank: 0
+  statToAlter: 67
+  negative: 1

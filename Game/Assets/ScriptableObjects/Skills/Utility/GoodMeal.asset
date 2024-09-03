@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6765887265f1094e8c8ee1fd4f934ae, type: 3}
+  m_Name: GoodMeal
+  m_EditorClassIdentifier: 
+  skillName: 6
+  desc: Chance for gems when feeding items to the void.
+  isPercentage: 0
+  applyOnUpgrade: 1
+  lockedIcon: {fileID: 1120633692, guid: 4f354e6db029ad44d9a271df769c865e, type: 3}
+  unlockedIcon: {fileID: -1139902989, guid: 4f354e6db029ad44d9a271df769c865e, type: 3}
+  maxedIcon: {fileID: -352693074, guid: 4f354e6db029ad44d9a271df769c865e, type: 3}
+  prerequisites:
+  - {fileID: 11400000, guid: 5d54fd068101bfb46825a8e8e4a17452, type: 2}
+  upgradeValues:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  startingCost: 3
+  increasedCostPerRank: 1
+  maxRank: 5
+  isUnlocked: 0
+  isUpgraded: 0
+  isMaxed: 0
+  currentRank: 0

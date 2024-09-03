@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc27fc5b0ad0f604a8efd62ef79ccbf9, type: 3}
+  m_Name: DemonicHeart
+  m_EditorClassIdentifier: 
+  grade: 3
+  output: {fileID: 11400000, guid: 869bcbe12f97c0b4a8d593498733caf9, type: 2}
+  unlockType: 1
+  ingredients:
+  - item: {fileID: 11400000, guid: de5488fd34b6e5c44a06bb8441fa621f, type: 2}
+    level: -2
+    quantity: 4
+  - item: {fileID: 11400000, guid: 2c218d5e720854b40b104aadac7fd603, type: 2}
+    level: -2
+    quantity: 1
+  - item: {fileID: 11400000, guid: fbf7334602fb58445940d97d769bd1d1, type: 2}
+    level: -2
+    quantity: 1
+  - item: {fileID: 11400000, guid: 09733cf4d1cee944da0a047c0a4b9b85, type: 2}
+    level: -2
+    quantity: 1
+  amountToCraft: 1
+  custom: 0
+  craftingValues:
+    cost: 0
+    time: 0
+  isResearched: 0

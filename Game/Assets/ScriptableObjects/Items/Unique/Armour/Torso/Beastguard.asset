@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae83c98e7fa911b45b8bb377ae20ad4d, type: 3}
+  m_Name: Beastguard
+  m_EditorClassIdentifier: 
+  iD: 105
+  itemName: Beastguard
+  description: Shoulder pads made with the head of a beast. It appears to be still
+    alive...
+  image: {fileID: 581055596, guid: a0596e43cf01d4d4ca0a3f5047c8119b, type: 3}
+  grade: 2
+  mainType: 1
+  types: 0900000007000000
+  dropInfo: {fileID: 11400000, guid: f3c199aa66d67ee46aa59fe3ab6902f1, type: 2}
+  traits:
+  - stat: 11
+    baseAmount: 10
+    isForEnemy: 0
+    isPercentage: 1
+    runtimeAmount: 0
+  - stat: 22
+    baseAmount: -10
+    isForEnemy: 1
+    isPercentage: 1
+    runtimeAmount: 0

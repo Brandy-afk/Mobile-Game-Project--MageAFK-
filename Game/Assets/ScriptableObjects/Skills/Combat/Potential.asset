@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2768540537ac84fa2032b6598cf092, type: 3}
+  m_Name: Potential
+  m_EditorClassIdentifier: 
+  skillName: 19
+  desc: 'Increased damage multiplier per level. '
+  isPercentage: 1
+  applyOnUpgrade: 1
+  lockedIcon: {fileID: 731473296, guid: 64b4982555848db43bea93a3afda0564, type: 3}
+  unlockedIcon: {fileID: 724915404, guid: 64b4982555848db43bea93a3afda0564, type: 3}
+  maxedIcon: {fileID: 1880031941, guid: 64b4982555848db43bea93a3afda0564, type: 3}
+  prerequisites:
+  - {fileID: 11400000, guid: 5248336ae60a63e4394b4b3be714d2ad, type: 2}
+  upgradeValues:
+  - 0.005
+  - 0.01
+  - 0.015
+  startingCost: 4
+  increasedCostPerRank: 2
+  maxRank: 3
+  isUnlocked: 0
+  isUpgraded: 0
+  isMaxed: 0
+  currentRank: 0

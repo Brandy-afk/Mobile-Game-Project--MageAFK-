@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b26db76f2f75b648b452b5bc128734f, type: 3}
+  m_Name: Doomstrike
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: spellStats
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[MageAFK.Stats.Stat, Assembly-CSharp],[MageAFK.Spells.SpellStat,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[MageAFK.Stats.Stat,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 59
+    - Name: $v
+      Entry: 7
+      Data: 2|MageAFK.Spells.SpellStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 150
+    - Name: runtimeValue
+      Entry: 4
+      Data: 150
+    - Name: statType
+      Entry: 3
+      Data: 59
+    - Name: upgradable
+      Entry: 5
+      Data: true
+    - Name: hideStat
+      Entry: 5
+      Data: false
+    - Name: isPercentage
+      Entry: 5
+      Data: false
+    - Name: maxLevel
+      Entry: 3
+      Data: 40
+    - Name: rule
+      Entry: 6
+      Data: 
+    - Name: level
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 25
+    - Name: $v
+      Entry: 7
+      Data: 3|MageAFK.Spells.SpellStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 30
+    - Name: runtimeValue
+      Entry: 4
+      Data: 30
+    - Name: statType
+      Entry: 3
+      Data: 25
+    - Name: upgradable
+      Entry: 5
+      Data: true
+    - Name: hideStat
+      Entry: 5
+      Data: false
+    - Name: isPercentage
+      Entry: 5
+      Data: false
+    - Name: maxLevel
+      Entry: 3
+      Data: 40
+    - Name: rule
+      Entry: 6
+      Data: 
+    - Name: level
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 4|MageAFK.Spells.SpellStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 120
+    - Name: runtimeValue
+      Entry: 4
+      Data: 120
+    - Name: statType
+      Entry: 3
+      Data: 10
+    - Name: upgradable
+      Entry: 5
+      Data: true
+    - Name: hideStat
+      Entry: 5
+      Data: false
+    - Name: isPercentage
+      Entry: 5
+      Data: false
+    - Name: maxLevel
+      Entry: 3
+      Data: 40
+    - Name: rule
+      Entry: 6
+      Data: 
+    - Name: level
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: recordDict
+      Entry: 7
+      Data: 5|System.Collections.Generic.Dictionary`2[[MageAFK.Spells.SpellRecordID,
+        Assembly-CSharp],[System.Single, mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 6|System.Collections.Generic.EnumEqualityComparer`1[[MageAFK.Spells.SpellRecordID,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 18446744073709551615
+    - Name: $v
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  iD: 20
+  spellName: Doomstrike
+  desc: Ultimate ability that significantly amplifies all damage dealt by the user
+    for a set duration, unleashing devastating power.
+  type: 2
+  effect: 0
+  element: 3
+  book: 3
+  damageType: 3
+  shaderColors:
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    tintColor: {r: 1, g: 1, b: 1, a: 1}
+  topColor: {r: 1, g: 1, b: 1, a: 1}
+  bottomColor: {r: 1, g: 1, b: 1, a: 1}
+  controller: {fileID: 9100000, guid: f248592d7dbf32340b3ab42b969da484, type: 2}
+  image: {fileID: -100037831, guid: 89c2c4973009c994bba05fc69128f277, type: 3}
+  prefab: {fileID: 0}
+  silverCost: 5000
+  spellsToPool: []
+  forcedFocus: 5
+  statToAdd: 0
+  sortedStats: 0a0000003b00000019000000
+  visual: {fileID: 0}
+  tip: 

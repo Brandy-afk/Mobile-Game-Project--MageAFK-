@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3dd1a5953b8a54ea94a5550496a851, type: 3}
+  m_Name: Wisdom
+  m_EditorClassIdentifier: 
+  skillName: 22
+  desc: Increased experience/mana from drops.
+  isPercentage: 1
+  applyOnUpgrade: 1
+  lockedIcon: {fileID: -975253662, guid: 64b4982555848db43bea93a3afda0564, type: 3}
+  unlockedIcon: {fileID: 92057553, guid: 64b4982555848db43bea93a3afda0564, type: 3}
+  maxedIcon: {fileID: 2030292112, guid: 64b4982555848db43bea93a3afda0564, type: 3}
+  prerequisites:
+  - {fileID: 11400000, guid: ebc45c53f639ef7468720219455efa3a, type: 2}
+  upgradeValues:
+  - 0.05
+  - 0.1
+  - 0.15
+  - 0.25
+  - 0.5
+  startingCost: 1
+  increasedCostPerRank: 4
+  maxRank: 5
+  isUnlocked: 0
+  isUpgraded: 0
+  isMaxed: 0
+  currentRank: 0
+  statToAlter: 21
+  negative: 0

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cee5afb5ffd8464bbec4e88473c0cb1, type: 3}
+  m_Name: Supreme
+  m_EditorClassIdentifier: 
+  skillName: 24
+  desc: 'Chance when upgrading a spell stat for it to upgrade twice instead. '
+  isPercentage: 1
+  applyOnUpgrade: 0
+  lockedIcon: {fileID: 470906976, guid: 4f354e6db029ad44d9a271df769c865e, type: 3}
+  unlockedIcon: {fileID: 691009438, guid: 4f354e6db029ad44d9a271df769c865e, type: 3}
+  maxedIcon: {fileID: -1471134311, guid: 4f354e6db029ad44d9a271df769c865e, type: 3}
+  prerequisites:
+  - {fileID: 11400000, guid: 837c438ae094a634b9a527964dcf219c, type: 2}
+  upgradeValues:
+  - 0.01
+  - 0.03
+  - 0.05
+  startingCost: 4
+  increasedCostPerRank: 2
+  maxRank: 3
+  isUnlocked: 0
+  isUpgraded: 0
+  isMaxed: 0
+  currentRank: 0

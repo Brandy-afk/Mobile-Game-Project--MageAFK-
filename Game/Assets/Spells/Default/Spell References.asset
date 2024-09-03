@@ -1,0 +1,1777 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eb448161658cf74e85c0ad8e5a85db6, type: 3}
+  m_Name: Spell References
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 1004060282, guid: e548f1cb026857c44a87f8a6e4da93ad, type: 3}
+    - {fileID: 1445673596, guid: e548f1cb026857c44a87f8a6e4da93ad, type: 3}
+    - {fileID: -591599491, guid: e548f1cb026857c44a87f8a6e4da93ad, type: 3}
+    - {fileID: -1072006799, guid: e548f1cb026857c44a87f8a6e4da93ad, type: 3}
+    - {fileID: -322368668, guid: e548f1cb026857c44a87f8a6e4da93ad, type: 3}
+    - {fileID: 21300000, guid: fcf0a2803a23c7846b62ace8c9a34274, type: 3}
+    - {fileID: 21300000, guid: d3e4bafbaab64e44b801fd9fc04239b0, type: 3}
+    - {fileID: 21300000, guid: 7669607a68dc5b549977645f54d6f95d, type: 3}
+    - {fileID: 391141284, guid: a2bb31d851dd3c940b992ef62a7a03f1, type: 3}
+    - {fileID: 21300000, guid: a8c6dd7a82b53ed46bfdf232063d4753, type: 3}
+    - {fileID: 21300000, guid: 927a08c8dfaeac1419cb019cf48d9f6a, type: 3}
+    - {fileID: 21300000, guid: 5cfabc01da587954eaf64f9a5f8cdfe0, type: 3}
+    - {fileID: 878167112, guid: c6644af2cf288b44ea4f4038a5b9839c, type: 3}
+    - {fileID: 21300000, guid: 9f9e4211cde463840857495bf718fd7c, type: 3}
+    - {fileID: 295836357, guid: e548f1cb026857c44a87f8a6e4da93ad, type: 3}
+    - {fileID: 21300000, guid: 7c2834f6a2611e1408ff1189c0e15062, type: 3}
+    - {fileID: 21300000, guid: 04cad7553db24684baab9180dfacf5d7, type: 3}
+    - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - {fileID: 2100000, guid: fa1d1106c2949a54c9c699d238198e48, type: 2}
+    - {fileID: 2100000, guid: df5575d9866e27d42956dc76505b0790, type: 2}
+    - {fileID: 2100000, guid: bdcf2520e0318e94eb1479d8fcf281ad, type: 2}
+    - {fileID: 2100000, guid: a996f305820108c4b9014cceacf7ba08, type: 2}
+    - {fileID: 2100000, guid: d7ad1dd83abc90e4d825c6f57c9aa1de, type: 2}
+    - {fileID: 2100000, guid: b4888048072244b4db58f61c3b09817c, type: 2}
+    - {fileID: 9100000, guid: ef1b65232cf30f444ac9a49c54bf913d, type: 2}
+    - {fileID: 9100000, guid: 94eb109b6e937e445991b3d92b5268f9, type: 2}
+    - {fileID: 9100000, guid: c0faa72c583dd9547a10551da49f5dc6, type: 2}
+    - {fileID: 9100000, guid: 99c4c45b8ed047a48b1188d3b0789290, type: 2}
+    - {fileID: 9100000, guid: d9913aa9224777b4fa127d61ba5b0454, type: 2}
+    - {fileID: 9100000, guid: 30b21dd80be389f4882c6e2515601259, type: 2}
+    - {fileID: 9100000, guid: 4957d496b8b0dff4583c9a1b6f9a091d, type: 2}
+    - {fileID: 9100000, guid: 95fe122db54ab1c4f88990f0f255716a, type: 2}
+    - {fileID: 9100000, guid: 6365d821d59b0a147a6c077182a9d096, type: 2}
+    - {fileID: 9100000, guid: 4deae71df94286f43a774379b85da782, type: 2}
+    - {fileID: 9100000, guid: 039caf30406ceb04997b605f909da572, type: 2}
+    - {fileID: 9100000, guid: 6fca82c973773234780278df7f23c474, type: 2}
+    - {fileID: 9100000, guid: 84f2770087b6614419ac07ddd8becd6f, type: 2}
+    - {fileID: 9100000, guid: 1abc3994c74320d4ab5ac684ac498e76, type: 2}
+    - {fileID: 9100000, guid: e9bc0dfab8a425c46a74c3c902b8a688, type: 2}
+    - {fileID: 9100000, guid: 282763b14d38ba8408c3597fd32c1592, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: bookRef
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[MageAFK.Spells.SpellBook,
+        Assembly-CSharp],[UnityEngine.Sprite, UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[MageAFK.Spells.SpellBook,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: defaultStatusReferences
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[MageAFK.Spells.StatusType,
+        Assembly-CSharp],[MageAFK.Spells.SpellStatusReference, Assembly-CSharp]],
+        mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 3|System.Collections.Generic.EnumEqualityComparer`1[[MageAFK.Spells.StatusType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 12
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 4|MageAFK.Spells.SpellStatusReference, Assembly-CSharp
+    - Name: image
+      Entry: 10
+      Data: 5
+    - Name: desc
+      Entry: 1
+      Data: 'Slows the enemies movement based on slow percentage. [Slows do not stack,
+        Best slow at any time is applied, but will reset the duration of all other
+        slows of the same element] '
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 5|MageAFK.Spells.SpellStatusReference, Assembly-CSharp
+    - Name: image
+      Entry: 10
+      Data: 6
+    - Name: desc
+      Entry: 1
+      Data: 'Burns the enemy, based on burn damage, on an interval of time, predefined,
+        for a certain duration, status duration. [Different spells can apply different
+        burns and burn always removes Ice slows] '
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 6|MageAFK.Spells.SpellStatusReference, Assembly-CSharp
+    - Name: image
+      Entry: 10
+      Data: 7
+    - Name: desc
+      Entry: 1
+      Data: Stuns the enemy for the the status duration. Stunned enemies can not
+        attack or move. [Enemy can be stunned again to reset the duration]
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 7|MageAFK.Spells.SpellStatusReference, Assembly-CSharp
+    - Name: image
+      Entry: 10
+      Data: 8
+    - Name: desc
+      Entry: 1
+      Data: Corrupts the enemy. Random chance for the target to be consumed by the
+        void, Corruption chance. [Does not stack, but resets duration]
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 8|MageAFK.Spells.SpellStatusReference, Assembly-CSharp
+    - Name: image
+      Entry: 10
+      Data: 9
+    - Name: desc
+      Entry: 1
+      Data: 'Confuses the enemy causing them to attack the nearest enemy. The damage
+        they do while confused is their damage multiplied by this spells confuse
+        damage. '
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: 9|MageAFK.Spells.SpellStatusReference, Assembly-CSharp
+    - Name: image
+      Entry: 10
+      Data: 10
+    - Name: desc
+      Entry: 1
+      Data: When proc'd, you strike the enemy for a percentage of their max health,
+        based on smite damage. It will also remove all stuns from the target.
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: 10|MageAFK.Spells.SpellStatusReference, Assembly-CSharp
+    - Name: image
+      Entry: 10
+      Data: 11
+    - Name: desc
+      Entry: 1
+      Data: Creates a wound on the target, making them bleed for a certain amount
+        of damage every interval for the duration of the effect. [Bleeds can stack
+        infinitely and each stack will reset the duration. Stacking increases the
+        damage of the bleed]
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 11|MageAFK.Spells.SpellStatusReference, Assembly-CSharp
+    - Name: image
+      Entry: 10
+      Data: 12
+    - Name: desc
+      Entry: 1
+      Data: 'Reduces the enemies damage by a certain percentage, weaken percentage.
+        [This will never reduce an enemies damage below 0] '
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 7
+      Data: 12|MageAFK.Spells.SpellStatusReference, Assembly-CSharp
+    - Name: image
+      Entry: 10
+      Data: 13
+    - Name: desc
+      Entry: 1
+      Data: Roots the enemy, allowing them to attack if possible, but not move until
+        the duration is over. [Upon being rooted again, it will recent the duration
+        of the current root]
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 13|MageAFK.Spells.SpellStatusReference, Assembly-CSharp
+    - Name: image
+      Entry: 10
+      Data: 14
+    - Name: desc
+      Entry: 1
+      Data: 'This spell does not proc any effects. '
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 14|MageAFK.Spells.SpellStatusReference, Assembly-CSharp
+    - Name: image
+      Entry: 10
+      Data: 15
+    - Name: desc
+      Entry: 1
+      Data: Applies a poison that increases damage against the entity based on the
+        'poison' stat. [Applications will reset duration, will apply best if multiple
+        applications]
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: 15|MageAFK.Spells.SpellStatusReference, Assembly-CSharp
+    - Name: image
+      Entry: 10
+      Data: 16
+    - Name: desc
+      Entry: 1
+      Data: Fears the enemy, causing them to panick and run in random directions
+        for a period of time. [Upon being feared again, it will recent the duration
+        of the current fear]
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: defaultShaderPairs
+      Entry: 7
+      Data: 16|System.Collections.Generic.Dictionary`2[[MageAFK.Spells.StatusType,
+        Assembly-CSharp],[UnityEngine.Material, UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: elementVerGrad
+      Entry: 7
+      Data: 17|System.Collections.Generic.Dictionary`2[[MageAFK.Spells.SpellElement,
+        Assembly-CSharp],[TMPro.VertexGradient, Unity.TextMeshPro]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 18|System.Collections.Generic.EnumEqualityComparer`1[[MageAFK.Spells.SpellElement,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 11
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: TMPro.VertexGradient, Unity.TextMeshPro
+    - Name: topLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.905882359
+    - Name: 
+      Entry: 4
+      Data: 0.8352941
+    - Name: 
+      Entry: 4
+      Data: 0.7019608
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: topRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.905882359
+    - Name: 
+      Entry: 4
+      Data: 0.8352941
+    - Name: 
+      Entry: 4
+      Data: 0.7019608
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.854901969
+    - Name: 
+      Entry: 4
+      Data: 0.5254902
+    - Name: 
+      Entry: 4
+      Data: 0.239215687
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.854901969
+    - Name: 
+      Entry: 4
+      Data: 0.5254902
+    - Name: 
+      Entry: 4
+      Data: 0.239215687
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: TMPro.VertexGradient, Unity.TextMeshPro
+    - Name: topLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.980392158
+    - Name: 
+      Entry: 4
+      Data: 0.945098042
+    - Name: 
+      Entry: 4
+      Data: 0.8235294
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: topRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.980392158
+    - Name: 
+      Entry: 4
+      Data: 0.945098042
+    - Name: 
+      Entry: 4
+      Data: 0.8235294
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.9843137
+    - Name: 
+      Entry: 4
+      Data: 0.8862745
+    - Name: 
+      Entry: 4
+      Data: 0.41568628
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.9843137
+    - Name: 
+      Entry: 4
+      Data: 0.8862745
+    - Name: 
+      Entry: 4
+      Data: 0.41568628
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: TMPro.VertexGradient, Unity.TextMeshPro
+    - Name: topLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.988235354
+    - Name: 
+      Entry: 4
+      Data: 0.988235354
+    - Name: 
+      Entry: 4
+      Data: 0.9843138
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: topRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.988235354
+    - Name: 
+      Entry: 4
+      Data: 0.988235354
+    - Name: 
+      Entry: 4
+      Data: 0.9843138
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.745098054
+    - Name: 
+      Entry: 4
+      Data: 0.964705944
+    - Name: 
+      Entry: 4
+      Data: 0.9607844
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.745098054
+    - Name: 
+      Entry: 4
+      Data: 0.964705944
+    - Name: 
+      Entry: 4
+      Data: 0.9607844
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: TMPro.VertexGradient, Unity.TextMeshPro
+    - Name: topLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.7058824
+    - Name: 
+      Entry: 4
+      Data: 0.7058824
+    - Name: 
+      Entry: 4
+      Data: 0.7058824
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: topRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.7058824
+    - Name: 
+      Entry: 4
+      Data: 0.7058824
+    - Name: 
+      Entry: 4
+      Data: 0.7058824
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.6431373
+    - Name: 
+      Entry: 4
+      Data: 0.09019608
+    - Name: 
+      Entry: 4
+      Data: 0.5137255
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.6431373
+    - Name: 
+      Entry: 4
+      Data: 0.09019608
+    - Name: 
+      Entry: 4
+      Data: 0.5137255
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: TMPro.VertexGradient, Unity.TextMeshPro
+    - Name: topLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: topRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.992156863
+    - Name: 
+      Entry: 4
+      Data: 0.8392157
+    - Name: 
+      Entry: 4
+      Data: 0.3019608
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.992156863
+    - Name: 
+      Entry: 4
+      Data: 0.8392157
+    - Name: 
+      Entry: 4
+      Data: 0.3019608
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: TMPro.VertexGradient, Unity.TextMeshPro
+    - Name: topLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.670588255
+    - Name: 
+      Entry: 4
+      Data: 0.980392158
+    - Name: 
+      Entry: 4
+      Data: 0.443137258
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: topRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.670588255
+    - Name: 
+      Entry: 4
+      Data: 0.980392158
+    - Name: 
+      Entry: 4
+      Data: 0.443137258
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.596078455
+    - Name: 
+      Entry: 4
+      Data: 0.9843137
+    - Name: 
+      Entry: 4
+      Data: 0.596078455
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.596078455
+    - Name: 
+      Entry: 4
+      Data: 0.9843137
+    - Name: 
+      Entry: 4
+      Data: 0.596078455
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: TMPro.VertexGradient, Unity.TextMeshPro
+    - Name: topLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.968627453
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.768627465
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: topRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.968627453
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.768627465
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.65882355
+    - Name: 
+      Entry: 4
+      Data: 0.7921569
+    - Name: 
+      Entry: 4
+      Data: 0.349019617
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.65882355
+    - Name: 
+      Entry: 4
+      Data: 0.7921569
+    - Name: 
+      Entry: 4
+      Data: 0.349019617
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 7
+      Data: TMPro.VertexGradient, Unity.TextMeshPro
+    - Name: topLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.7137255
+    - Name: 
+      Entry: 4
+      Data: 0.9372549
+    - Name: 
+      Entry: 4
+      Data: 0.8627451
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: topRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.7137255
+    - Name: 
+      Entry: 4
+      Data: 0.9372549
+    - Name: 
+      Entry: 4
+      Data: 0.8627451
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.121568628
+    - Name: 
+      Entry: 4
+      Data: 0.494117647
+    - Name: 
+      Entry: 4
+      Data: 0.870588243
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.121568628
+    - Name: 
+      Entry: 4
+      Data: 0.494117647
+    - Name: 
+      Entry: 4
+      Data: 0.870588243
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: TMPro.VertexGradient, Unity.TextMeshPro
+    - Name: topLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.6784314
+    - Name: 
+      Entry: 4
+      Data: 0.4666667
+    - Name: 
+      Entry: 4
+      Data: 0.34117648
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: topRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.6784314
+    - Name: 
+      Entry: 4
+      Data: 0.4666667
+    - Name: 
+      Entry: 4
+      Data: 0.34117648
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.4784314
+    - Name: 
+      Entry: 4
+      Data: 0.282352954
+    - Name: 
+      Entry: 4
+      Data: 0.254901975
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.4784314
+    - Name: 
+      Entry: 4
+      Data: 0.282352954
+    - Name: 
+      Entry: 4
+      Data: 0.254901975
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: TMPro.VertexGradient, Unity.TextMeshPro
+    - Name: topLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.8509804
+    - Name: 
+      Entry: 4
+      Data: 0.466666669
+    - Name: 
+      Entry: 4
+      Data: 0.466666669
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: topRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.8509804
+    - Name: 
+      Entry: 4
+      Data: 0.466666669
+    - Name: 
+      Entry: 4
+      Data: 0.466666669
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.6886792
+    - Name: 
+      Entry: 4
+      Data: 0.0292363688
+    - Name: 
+      Entry: 4
+      Data: 0.0292363688
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.7264151
+    - Name: 
+      Entry: 4
+      Data: 0.0582502745
+    - Name: 
+      Entry: 4
+      Data: 0.0582502745
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: TMPro.VertexGradient, Unity.TextMeshPro
+    - Name: topLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: topRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomLeft
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bottomRight
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: effectAnimations
+      Entry: 7
+      Data: 19|System.Collections.Generic.Dictionary`2[[MageAFK.Spells.SpellEffectAnimation,
+        Assembly-CSharp],[UnityEngine.RuntimeAnimatorController, UnityEngine.AnimationModule]],
+        mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 20|System.Collections.Generic.EnumEqualityComparer`1[[MageAFK.Spells.SpellEffectAnimation,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 26
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 27
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 28
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 10
+      Data: 29
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 10
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 10
+      Data: 31
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: spellAnimations
+      Entry: 7
+      Data: 21|System.Collections.Generic.Dictionary`2[[MageAFK.Spells.SpellIdentification,
+        Assembly-CSharp],[UnityEngine.RuntimeAnimatorController, UnityEngine.AnimationModule]],
+        mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 22|System.Collections.Generic.EnumEqualityComparer`1[[MageAFK.Spells.SpellIdentification,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 10
+      Data: 32
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 28
+    - Name: $v
+      Entry: 10
+      Data: 33
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 10
+      Data: 34
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 14
+    - Name: $v
+      Entry: 10
+      Data: 35
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 19
+    - Name: $v
+      Entry: 10
+      Data: 36
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 15
+    - Name: $v
+      Entry: 10
+      Data: 37
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 18
+    - Name: $v
+      Entry: 10
+      Data: 38
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 20
+    - Name: $v
+      Entry: 10
+      Data: 39
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  hitMaterial: {fileID: 2100000, guid: 013148c33af00ff4b902c500803aa9ec, type: 2}

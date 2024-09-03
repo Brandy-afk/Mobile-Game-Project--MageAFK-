@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53fe06069a763014bb0aaf2bc2b3ef87, type: 3}
+  m_Name: Hide
+  m_EditorClassIdentifier: 
+  iD: 18
+  itemName: Hide
+  description: Rugged hide of an animal
+  image: {fileID: -1575743988, guid: f04330929aa6ccb49a4943ae62d76471, type: 3}
+  grade: 2
+  mainType: 5
+  types: 
+  dropInfo: {fileID: 11400000, guid: fcf9044c980d65f49bc37f83dcfd999f, type: 2}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a5b5ce1084cf2d44b9382d4a91a363c, type: 3}
+  m_Name: FoolsCap
+  m_EditorClassIdentifier: 
+  iD: 82
+  itemName: Fools Cap
+  description: A whimsical hat for jesters and entertainers.
+  image: {fileID: -198401948, guid: 4189b7ccff4cfda4284a95e6492bda39, type: 3}
+  grade: 3
+  mainType: 0
+  types: 0900000007000000
+  dropInfo: {fileID: 11400000, guid: a59b959b11ea46c48b03b310ad9ca484, type: 2}
+  wrapInfoText: 1
+  damage:
+  - 10
+  - 15
+  - 20
+  - 30
+  chance:
+  - 100
+  - 30
+  - 40
+  - 50
+  prefab: {fileID: 6184391622970479656, guid: 5ccafa213e226674e85c097ec85450ad, type: 3}

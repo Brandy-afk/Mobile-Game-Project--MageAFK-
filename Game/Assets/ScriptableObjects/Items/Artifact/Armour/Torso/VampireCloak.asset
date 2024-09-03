@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae83c98e7fa911b45b8bb377ae20ad4d, type: 3}
+  m_Name: VampireCloak
+  m_EditorClassIdentifier: 
+  iD: 98
+  itemName: Vampire Cloak
+  description: A shadowy garment radiating malevolent power.
+  image: {fileID: 1525711899, guid: a0596e43cf01d4d4ca0a3f5047c8119b, type: 3}
+  grade: 4
+  mainType: 1
+  types: 0900000007000000
+  dropInfo: {fileID: 11400000, guid: 69de67a02ea687140832a357fcfe20fb, type: 2}
+  traits:
+  - stat: 29
+    baseAmount: 40
+    isForEnemy: 0
+    isPercentage: 1
+    runtimeAmount: 0
+  - stat: 47
+    baseAmount: -10
+    isForEnemy: 0
+    isPercentage: 1
+    runtimeAmount: 0
+  - stat: 39
+    baseAmount: 10
+    isForEnemy: 0
+    isPercentage: 1
+    runtimeAmount: 0

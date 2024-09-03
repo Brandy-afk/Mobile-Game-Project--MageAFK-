@@ -1,0 +1,12 @@
+
+
+namespace MageAFK.AI
+{
+public class #SCRIPTNAME# : Enemy
+{
+  #NOTRIM#
+//Based on behaviour, set up script to either call to melee or ranged to minimize coding.
+  #NOTRIM#
+}
+
+}

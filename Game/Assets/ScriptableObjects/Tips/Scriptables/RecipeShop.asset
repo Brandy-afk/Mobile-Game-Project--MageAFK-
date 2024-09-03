@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bf4c91f850c122408ce95715d20ffdc, type: 3}
+  m_Name: RecipeShop
+  m_EditorClassIdentifier: 
+  target: 57
+  title: Recipe Shop
+  desc: 'Purchase recipes that you can craft during your sieges. Simply press on
+    any recipe to inspect. Recipes are permanent, but the <color=#822608>shop will
+    reset when a siege ends.
+
+
+    All recipes will go to your <sprite name=Book>'
