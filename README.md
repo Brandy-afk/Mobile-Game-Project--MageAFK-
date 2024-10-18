@@ -17,6 +17,7 @@ Please note that this repository contains a portfolio version of the project and
 The code in this repository may not reflect the most current version of the project.
 Updates to the live project are not synchronized with this repository.
 This version may lack certain features or optimizations present in the active development version.
+For private and specific matters it is available for showcase. 
 
 # Legal Notice
 By accessing this repository, you acknowledge that:
